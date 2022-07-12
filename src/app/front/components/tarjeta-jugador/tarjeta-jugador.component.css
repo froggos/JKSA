@@ -1,8 +1,8 @@
 .card {
     width: 32rem !important;
-    background-color: #1B2021;
-    border-radius: 8px !important;
-    margin: 10px;
+    background-color: #222831;
+    border-radius: 8px 8px 8px 8px !important;
+    margin: 20px;
 }
 
 .img-contenedor {
