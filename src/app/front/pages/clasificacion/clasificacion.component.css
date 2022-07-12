@@ -1,0 +1,21 @@
+.panel {
+    background-color: #30343F;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+.panel-cabezal {
+    margin: 1rem;
+}
+
+.panel-titulo {
+    font-weight: bold;
+}
+
+.panel-cuerpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;
+}

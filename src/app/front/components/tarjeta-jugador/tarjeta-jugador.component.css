@@ -1,0 +1,25 @@
+.card {
+    width: 32rem !important;
+    background-color: #1B2021;
+    border-radius: 8px !important;
+    margin: 10px;
+}
+
+.img-contenedor {
+    border-radius: 8px;
+    max-width: 128px;
+    max-height: 128px;
+}
+
+img {
+    height: 105px;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+.rango-contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+*, body, html {
+    font-family: 'Overpass', sans-serif !important;
+}
+
+body {
+    background-color: #1B2021;
+    color: white;
+}
+
+a {
+    font-family: 'Overpass', sans-serif !important;
+}
