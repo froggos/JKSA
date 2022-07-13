@@ -1,24 +1,22 @@
 <div class="card" *ngFor="let jugador of jugadores; let i = index">
     <div class="row">
         <div class="col">
-            <div class="img-contenedor">
-                <img [src]="jugador.portraitUrl" alt="">
-            </div>
+            <img [src]="jugador.portraitUrl" alt="">
         </div>
-        <div class="col-1 d-flex justify-content-center">
-            <div class="rango-contenedor">
-                <h2 class="rango">#{{jugador.rango}}</h2>
-            </div>
-        </div>
-        <div class="col">
+        <div class="col-6">
             <div class="card-body">
-                <h4 class="card-title">{{jugador.nombre}}</h4>
+                <h3 class="card-title">{{jugador.nombre}}</h3>
                 <pre>{{jugador.sable}}</pre>
             </div>
         </div>
-        <div class="col">
+        <div class="col-2">
             <div class="medallas-container">
                 
+            </div>
+        </div>
+        <div class="col d-flex justify-content-center">
+            <div class="rango-contenedor">
+                <h2 class="mt-2 rango p-2">#{{jugador.rango}}</h2>
             </div>
         </div>
     </div>

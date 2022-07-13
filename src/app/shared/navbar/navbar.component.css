@@ -1,11 +1,13 @@
 .navbar {
-    background-color: #2d3541 !important;
-    box-shadow: 3px 3px 10px 3px #14181d;
-    border-radius: 4px;
+    background-color: #1c222b !important;
+    box-shadow: 3px 3px 10px 0px #14181d;
+    border-radius: 2px;
+    border-style: solid;
+    border: 1px solid #3f4a5a;
 }
 
 a {
-    color: white !important;
+    color: #EEEEEE !important;
 }
 
 li {
@@ -19,16 +21,16 @@ ul li {
 
 ul li:hover {
     border-radius: 3px;
-    background-color: #394352;
+    background-color: #222831;
 }
 
 .log-in-item {
     background-color: #00ADB5; 
-    border-radius: 3px;
+    border-radius: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}   
 
 .log-in-item:hover {
     background-color: #01939b !important; 

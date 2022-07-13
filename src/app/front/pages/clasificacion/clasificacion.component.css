@@ -1,13 +1,27 @@
 .panel {
-    background-color: #2d3541;
-    border-radius: 4px;
-    box-shadow: 3px 3px 10px 3px #14181d;
-    padding: 10px;
-    margin-top: 1rem;
+    color: #EEEEEE;
+    box-shadow: 3px 3px 10px 0px #14181d;
+    background-color: #222831;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3f4a5a;
+    height: 100%;
 }
 
 .panel-cabezal {
-    margin: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: #1c222b;
+    border-radius: 4px 4px 0 0;
+    border-style: solid;
+    border: 1px solid #3f4a5a;
+    border-width: 0 0 1px 0;
+    padding: 1rem 0.5rem 0.5rem 1rem;
+}
+
+.contenedor-titulo {
+    margin-top: 0.5rem;
 }
 
 .panel-titulo {
@@ -15,8 +29,11 @@
 }
 
 .panel-cuerpo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 1rem;
+    height: 80vh;
+    overflow-x: hidden;
+    flex: 1;
+}
+
+.scrolleable {
+    overflow-y: scroll;
 }

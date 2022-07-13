@@ -5,6 +5,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { MainComponent } from './pages/main/main.component';
 import { JugadoresComponent } from './pages/jugadores/jugadores.component';
 import { TarjetaJugadorComponent } from './components/tarjeta-jugador/tarjeta-jugador.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 
 
@@ -14,7 +15,8 @@ import { TarjetaJugadorComponent } from './components/tarjeta-jugador/tarjeta-ju
     JugadoresComponent,
     LoginComponent,
     MainComponent,
-    TarjetaJugadorComponent
+    TarjetaJugadorComponent,
+    SidebarComponent
   ],
   imports: [
     CommonModule
