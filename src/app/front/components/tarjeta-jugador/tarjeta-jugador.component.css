@@ -1,7 +1,8 @@
 .card {
     width: 32rem !important;
     background-color: #222831;
-    border-radius: 8px 8px 8px 8px !important;
+    border-radius: 3px 25px 25px 25px !important;
+    box-shadow: 1px 1px 0px 1px #14181d;
     margin: 20px;
 }
 
@@ -12,8 +13,7 @@
 }
 
 img {
-    height: 105px;
-    border-radius: 8px;
+    border-radius: 3px 5px 5px 25px;
     max-width: 100%;
 }
 
