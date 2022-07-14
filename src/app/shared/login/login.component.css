@@ -1,0 +1,50 @@
+.panel {
+    color: #EEEEEE;
+    background-color: #222831;
+    height: 100%;
+    width: 500px;
+}
+
+.panel-cabezal {
+    color: #222831;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd;
+    border-radius: 5px 5px 0 0;
+    padding: 1rem 0.5rem 0.5rem 1rem;
+}
+
+.contenedor-titulo {
+    margin-top: 0.5rem;
+}
+
+.panel-titulo {
+    font-weight: bold;
+}
+
+.panel-cuerpo {
+    background-color: #EEEEEE;
+    padding: 3rem;
+    overflow-x: hidden;
+    flex: 1;
+}
+
+.panel-footer {
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    flex: 1;
+    background-color: #393E46;
+}
+
+.input-blue {
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    font-size: 17px;
+    height: 3rem;
+}

@@ -3,4 +3,6 @@ export interface Jugador {
     nombre     : string;
     rango      : number;
     sable      : string;
+    bandera?   : string;
+    medallas?  : string[];
 }

@@ -22,4 +22,35 @@ a {
 
 ::-webkit-scrollbar-thumb {
     background: #323c4b;
-  }
+}
+
+::placeholder {
+    color: #222831;
+}
+
+.input-blue {
+    color: #222831;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #3f4a5a;
+}
+
+.input-blue:focus {
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #00ADB5 !important;
+}
+
+.input-blue:hover {
+    background-color: rgb(223, 223, 223)
+}
+
+.boton {
+    border: none;
+    padding: 0.5rem;
+}
+
+.boton:focus {
+    outline: none;
+
+}

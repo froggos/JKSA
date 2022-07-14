@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 
 @Component({
@@ -8,10 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  closeResult: string = "";
+
+  constructor(private modalService: NgbModal) { }
 
   ngOnInit(): void {
    
   }
 
+  open = (content: any) => {
+    this.modalService.open(content, {ariaLabelledBy: 'modal-basic-title'}).result.then((result) => {
+      this.closeResult = `Cerrado con ${result}`;
+    }, (reason) => {
+      this.closeResult = `Descartado ${reason}`;
+    });
+  }
 }

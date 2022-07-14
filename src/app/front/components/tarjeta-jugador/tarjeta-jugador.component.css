@@ -4,8 +4,9 @@
     color: #EEEEEE;
     border-style: solid;
     border: 1px solid #3f4a5a;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 8px 0px 0 0 #00ADB5;
 }
 
 img {

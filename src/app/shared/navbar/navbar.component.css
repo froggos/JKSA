@@ -1,6 +1,6 @@
 .navbar {
     background-color: #111418 !important;
-    border-radius: 2px;
+    border-radius: 3px;
     border-style: solid;
     border: 1px solid #3f4a5a;
 }
@@ -19,18 +19,20 @@ ul li {
 }
 
 ul li:hover {
-    border-radius: 3px;
-    background-color: #222831;
+    border-radius: 1px;
+    background-color: #282f38;
 }
 
 .log-in-item {
-    background-color: #00ADB5; 
-    border-radius: 2px;
+    border: 1px solid #00ADB5;
+    border-radius: 1px;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }   
 
 .log-in-item:hover {
-    background-color: #01939b !important; 
+    border-radius: 1px !important;
+    background-color: #00ADB5 !important; 
 }
