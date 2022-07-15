@@ -5,6 +5,7 @@
 
 body {
     background-color: #222831;
+    background-image: url("../src/assets/background.jpg");
     color: white;
 }
 
@@ -31,12 +32,12 @@ a {
 .input-blue {
     color: #222831;
     background: transparent;
-    border-radius: 5px;
+    border-radius: 3px;
     border: 1px solid #3f4a5a;
 }
 
 .input-blue:focus {
-    border-radius: 5px;
+    border-radius: 3px;
     outline: none;
     border: 2px solid #00ADB5 !important;
 }
@@ -52,5 +53,4 @@ a {
 
 .boton:focus {
     outline: none;
-
 }

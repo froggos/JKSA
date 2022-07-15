@@ -23,9 +23,14 @@ ul li:hover {
     background-color: #282f38;
 }
 
+ul li a:focus {
+    outline: 2px solid #37404d !important;
+    border-radius: 3px;
+}
+
 .log-in-item {
     border: 1px solid #00ADB5;
-    border-radius: 1px;
+    border-radius: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,6 +38,6 @@ ul li:hover {
 }   
 
 .log-in-item:hover {
-    border-radius: 1px !important;
+    border-radius: 3px !important;
     background-color: #00ADB5 !important; 
 }
