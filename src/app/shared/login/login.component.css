@@ -63,3 +63,17 @@
     outline: 2px solid #f0833a81;
     outline-offset: 2px;
 }
+
+.boton-cerrar {
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    color: #222831;
+}
+
+.boton-cerrar:hover {
+    color: #505f75;
+}

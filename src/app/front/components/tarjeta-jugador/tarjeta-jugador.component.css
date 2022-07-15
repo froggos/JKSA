@@ -1,12 +1,22 @@
 .card {
-    background-color: #191E24;
-    border-radius: 3px !important;
+    background: repeating-linear-gradient(
+        45deg,
+        #222831,
+        #222831 30px,
+        #111418 30px,
+        #111418 80px
+    );
+    border-radius: 0px !important;
     color: #EEEEEE;
     border-style: solid;
     border: 1px solid #3f4a5a;
     margin-top: 15px;
     margin-bottom: 15px;
-    box-shadow: 8px 0px 0 0 #00ADB5;
+}
+
+.card:first-child, .card:last-child {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 img {
@@ -26,4 +36,14 @@ img {
 .mini-bandera {
     max-width: 40px;
     max-height: 40px;
+}
+
+@media (max-width: 600px) {
+    .medallas-contenedor {
+        display: none;
+    }
+
+    .portrait-contenedor {
+        display: none;
+    }
 }

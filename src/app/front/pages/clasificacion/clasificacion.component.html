@@ -1,31 +1,12 @@
-<div class="row">
-    <div class="col-3">
-        <div class="panel">
-            <div class="panel-cabezal">
-                <div class="contenedor-titulo">
-                    <h3 class="panel-titulo">
-                        Categorías
-                    </h3>
-                </div>
-            </div>
-            <div class="panel-cuerpo">
-                
-            </div>
+<div class="panel">
+    <div class="panel-cabezal">
+        <div class="contenedor-titulo">
+            <h3 class="panel-titulo">
+                TOP 10
+            </h3>
         </div>
     </div>
-
-    <div class="col">
-        <div class="panel">
-            <div class="panel-cabezal">
-                <div class="contenedor-titulo">
-                    <h3 class="panel-titulo">
-                        TOP 10
-                    </h3>
-                </div>
-            </div>
-            <div class="panel-cuerpo">
-                <app-tarjeta-jugador [jugadores]="jugadores"></app-tarjeta-jugador>
-            </div>
-        </div>
+    <div class="panel-cuerpo">
+        <app-tarjeta-jugador [jugadores]="jugadores"></app-tarjeta-jugador>
     </div>
 </div>
