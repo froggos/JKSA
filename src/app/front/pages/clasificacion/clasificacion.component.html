@@ -5,6 +5,16 @@
                 TOP 10
             </h3>
         </div>
+        <div ngbDropdown class="dropdown categorias">
+            <button ngbDropdownToggle class="boton">
+                Categorías
+            </button>
+            <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a ngbDropdownItem class="dropdown-item" href="#">Action</a>
+                <a ngbDropdownItem class="dropdown-item" href="#">Another action</a>
+                <a ngbDropdownItem class="dropdown-item" href="#">Something else here</a>
+            </div>
+        </div>
     </div>
     <div class="panel-cuerpo">
         <app-tarjeta-jugador [jugadores]="jugadores"></app-tarjeta-jugador>

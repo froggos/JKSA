@@ -5,5 +5,5 @@ export interface Jugador {
     sable?      : string;
     banderaUrl? : string;
     medallas?   : string[];
-    rangoUrl?   : string;
+    clasific?   : string;
 }

@@ -7,7 +7,6 @@ import { TarjetaJugadorComponent } from './components/tarjeta-jugador/tarjeta-ju
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 
-
 @NgModule({
   declarations: [
     ClasificacionComponent,

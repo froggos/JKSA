@@ -1,46 +1,57 @@
-<div class="card" *ngFor="let jugador of jugadores; let i = index">
-    <div class="card-body">
+<div class="carta" *ngFor="let jugador of jugadores; let i = index">
+    <div class="portrait-contenedor">
+        <img class="portrait" [src]="jugador.portraitUrl" alt="">
+        <div class="espaciador"></div>
+    </div>
+    <div class="personal">
+        <img class="mini-bandera" [src]="jugador.banderaUrl" alt="">
+        <h3 class="nombre-jugador">{{jugador.nombre}}</h3>
+    </div>
+    <div class="sable">
+        <img class="sable-img" [src]="jugador.sable" alt="">
+    </div>
+    <div class="clasificacion">
+        <img class="rango-img" [src]="jugador.clasific" alt="">
+    </div>
+    <div class="medallas">
+        <div class="medalla"><img style="width:60px" src="../../../../assets/medallas/configforce.jpg" alt=""></div>
+        <div class="medalla"><img style="width:60px" src="../../../../assets/medallas/configforce.jpg" alt=""></div>
+        <div class="medalla"><img style="width:60px" src="../../../../assets/medallas/configforce.jpg" alt=""></div>
+        <div class="medalla"><img style="width:60px" src="../../../../assets/medallas/configforce.jpg" alt=""></div>
+    </div>
+    <div class="rango">
+        <h2 class="mt-2 rango p-2">#{{jugador.rango}}</h2>
+    </div>
+    <!-- <div class="col-lg-2 col-sm portrait-contenedor">
+        <img class="portrait" [src]="jugador.portraitUrl" alt="">
+    </div>
+    <div class="col-lg col-sm">
+        <img class="mini-bandera" [src]="jugador.banderaUrl" alt="">
+        <h3>{{jugador.nombre}}</h3>
+    </div>
+    <div class="col">
         <div class="row">
-            <div class="col-lg-2 col-sm portrait-contenedor">
-                <img class="portrait" [src]="jugador.portraitUrl" alt="">
+            <div class="col d-flex justify-content-center">
+                <img class="sable-img" [src]="jugador.sable" alt="">
             </div>
-            <div class="col-lg-2 col-sm">
-                <div class="row">
-                    <div class="col">
-                        <h3 class="card-title">{{jugador.nombre}}</h3>
-                    </div>
-                    <div class="col">
-                        <img class="mini-bandera" [src]="jugador.banderaUrl" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <h6>{{jugador.sable}}</h6>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <h6>Clasificación</h6>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg col-md col-sm medallas-contenedor">
-                <div class="medallas">
-                    <div class="row">
-                        <div class="col d-flex justify-content-center"><img style="width:60px" src="../../../../assets/medallas/configforce.jpg" alt=""></div>
-                        <div class="col d-flex justify-content-center"><img style="width:60px" src="../../../../assets/medallas/configforce.jpg" alt=""></div>
-                    </div>
-                    <div class="row mt-2">
-                        <div class="col d-flex justify-content-center"><img style="width:60px" src="../../../../assets/medallas/configforce.jpg" alt=""></div>
-                        <div class="col d-flex justify-content-center"><img style="width:60px" src="../../../../assets/medallas/configforce.jpg" alt=""></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm col-xs-1 d-flex justify-content-center">
-                <div class="rango-contenedor">
-                    <h2 class="mt-2 rango p-2">#{{jugador.rango}}</h2>
-                </div>
+            <div class="col d-flex justify-content-center">
+                <img class="rango-img" [src]="jugador.clasific" alt="">
             </div>
         </div>
     </div>
+    <div class="col-lg col-md col-sm medallas-contenedor">
+        <div class="medallas">
+            <div class="row">
+                <div class="col d-flex justify-content-center"><img style="width:60px" src="../../../../assets/medallas/configforce.jpg" alt=""></div>
+                <div class="col d-flex justify-content-center"><img style="width:60px" src="../../../../assets/medallas/configforce.jpg" alt=""></div>
+                <div class="col d-flex justify-content-center"><img style="width:60px" src="../../../../assets/medallas/configforce.jpg" alt=""></div>
+                <div class="col d-flex justify-content-center"><img style="width:60px" src="../../../../assets/medallas/configforce.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg col-sm col-xs d-flex justify-content-center">
+        <div class="rango-contenedor">
+            <h2 class="mt-2 rango p-2">#{{jugador.rango}}</h2>
+        </div>
+    </div> -->
 </div>

@@ -21,6 +21,8 @@
 }
 
 .contenedor-titulo {
+    display: flex;
+    flex-grow: 100;
     margin-top: 0.5rem;
 }
 
@@ -38,4 +40,8 @@
 
 .scrolleable {
     overflow-y: scroll;
+}
+
+.categorias {
+    margin-right: 10px;
 }
