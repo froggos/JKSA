@@ -42,3 +42,8 @@ ul li a:focus {
     border-radius: 3px !important;
     background-color: #00ADB5 !important; 
 }
+
+.log-in-item:focus {
+    outline: 2px solid #00ADB5 !important;
+    outline-offset: 6px;
+}
