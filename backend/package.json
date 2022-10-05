@@ -1,0 +1,17 @@
+{
+  "name": "backend-jksa",
+  "version": "1.0.0",
+  "description": "backend del sistema jksa web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sapo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "sha1-hash-and-verify": "^1.0.4"
+  }
+}
